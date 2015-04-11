@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<part>
+    <width>240</width>
+    <height>144</height>
+    <xLoc>0</xLoc>
+    <yLoc>0</yLoc>
+    <layer>0</layer>
+    <name>Test</name>
+    <imageName>Test.png</imageName>
+    <description>Test</description>
+    <packageType>symbol</packageType>
+    <rotation>0</rotation>
+    <author>pueskma</author>
+    <license></license>
+    <value></value>
+    <designator>P</designator>
+    <mirrorVertical>false</mirrorVertical>
+    <mirrorHorizontal>false</mirrorHorizontal>
+    <nameXOffset>-8</nameXOffset>
+    <nameYOffset>-8</nameYOffset>
+    <connections/>
+</part>
