@@ -482,7 +482,10 @@ public class ApplicationMenuBarProviderImpl implements ApplicationMenuBarProvide
 		JMenu openSamplesMenu = new JMenu(resources.getResourceByKey("menu.samples"));		
 		File samplesDir = new File(AppContext.getWorkingDir(),"samples");		
 		File[] sampleFiles = samplesDir.listFiles();		
-		populateSamplesMenu(openSamplesMenu, sampleFiles);
+		
+		if (sampleFiles != null) {
+			populateSamplesMenu(openSamplesMenu, sampleFiles);			
+		}
 	
 		return openSamplesMenu;
 	}
